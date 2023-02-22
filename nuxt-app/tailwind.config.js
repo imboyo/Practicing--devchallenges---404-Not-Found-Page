@@ -12,6 +12,12 @@ module.exports = {
     extend: {
       fontFamily: {
         inconsolata: ["Inconsolata", "monospace"],
+        "space-mono": ["Space Mono", "monospace"],
+      },
+      colors: {
+        'app-gray-1': '#333333',
+        'app-gray-2': '#4F4F4F',
+        'app-gray-light': '#BDBDBD'
       }
     },
   },

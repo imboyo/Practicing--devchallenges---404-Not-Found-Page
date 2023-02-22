@@ -3,7 +3,7 @@ import BaseHeaderTextTitle from "~/components/UI/header/BaseHeaderTextTitle.vue"
 </script>
 
 <template>
-  <div class="py-5 lg:py-10">
+  <div class="py-5">
     <BaseHeaderTextTitle/>
   </div>
 </template>
