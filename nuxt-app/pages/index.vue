@@ -1,6 +1,17 @@
 <script lang="ts" setup>
 import IndexBaseHero from "~/components/pages/index/IndexBaseHero.vue";
 import IndexBaseDescription from "~/components/pages/index/IndexBaseDescription.vue";
+
+useHead({
+  title: "404 - Page Not Found",
+  meta: [
+    {
+      hid: "description",
+      name: "Page Not Found",
+      content: "The Page you are looking for is not found.",
+    },
+  ],
+});
 </script>
 
 
