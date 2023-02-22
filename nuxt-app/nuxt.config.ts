@@ -13,6 +13,9 @@ export default defineNuxtConfig({
     head: {
       link: [
         {
+          rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'
+        },
+        {
           rel: 'preconnect', href: 'href="https://fonts.googleapis.com',
         },
         {
@@ -26,7 +29,7 @@ export default defineNuxtConfig({
           rel: 'stylesheet',
           href: 'https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap'
         }
-      ]
+      ],
     }
   }
 })
